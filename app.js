@@ -2,7 +2,7 @@ const express = require("express");
 const yelp = require("yelp-fusion");
 const cors = require('cors');
 
-const API_KEY =  "";
+const API_KEY = '';
 
 const client = yelp.client(API_KEY);
 
