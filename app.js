@@ -2,9 +2,9 @@ const express = require("express");
 const yelp = require("yelp-fusion");
 const cors = require('cors');
 
-const client = yelp.client(
-  "1ew9pCMq_7UrOW8uxArF_DsbdhTKm-4p9AY31ZRgscdAf70lp_9LHqVAEHl9wMffc_VSBUG66a7cxZDD-ghj76x0hr3na8pafKYmKhTXTx6eVbrK1-hXJG50jOW6X3Yx"
-);
+const API_KEY =  "";
+
+const client = yelp.client(API_KEY);
 
 const app = express();
 const port = 3000;
